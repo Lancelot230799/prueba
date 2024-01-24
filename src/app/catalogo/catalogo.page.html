@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Catalogo</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-title>----------- Casas --------------</ion-title>
+  <!-- Casas -->
+  <ion-card>
+    <img alt="casa1" src="https://www.shutterstock.com/image-illustration/luxury-beach-house-sea-view-600nw-2313357873.jpg" />
+    <ion-card-header>
+      <ion-card-title>Casa con piscina</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Casa moderna mas pisina incluida - 100.000$USD
+    </ion-card-content>
+    <ion-button (click)="navigatecompra()" >Lo compro</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://imgix.cosentino.com/es/wp-content/uploads/2023/07/Lumire-70-Facade-MtWaverley-vic-1.jpg?auto=format%2Ccompress&ixlib=php-3.3.0" />
+    <ion-card-header>
+      <ion-card-title>Casa moderna</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Casa moderna con garage amplio - 50.000$USD
+    </ion-card-content>
+    <ion-button (click)="navigatecompra()" >Lo compro</ion-button>
+  </ion-card>
+  <ion-title>----------- Fincas --------------</ion-title>
+  <!-- Fincas -->
+  <ion-card>
+    <img alt="finca1" src="https://http2.mlstatic.com/D_NQ_NP_630340-MLA70764130375_072023-O.webp" />
+    <ion-card-header>
+      <ion-card-title>Finca moderna con piscina</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Finca moderna con pisina - 150.000$USD
+    </ion-card-content>
+    <ion-button (click)="navigatecompra()" >Lo compro</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="finca2" src="https://i.pinimg.com/originals/e3/65/1a/e3651a2bc6264ece440f9db8a0191f2d.jpg" />
+    <ion-card-header>
+      <ion-card-title>Finca moderna</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Finca moderna - 100.000$USD
+    </ion-card-content>
+    <ion-button (click)="navigatecompra()" >Lo compro</ion-button>
+  </ion-card>
+  <ion-title>----------- Aptos/suites --------------</ion-title>
+  <!-- Fincas -->
+  <ion-card>
+    <img alt="apto1" src="https://hotelesconpiscinaprivada.com/img5/seccion-hoteles-jacuzzi-cataluna-min.jpg" />
+    <ion-card-header>
+      <ion-card-title>Suite con piscina</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Suite con piscina - 250.000$USD
+    </ion-card-content>
+    <ion-button (click)="navigatecompra()" >Lo compro</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="apto2" src="https://www.tuoagency.com/uploads/sizes/blog/como-decorar-suite-hotel.jpg" />
+    <ion-card-header>
+      <ion-card-title>Suite</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Suite comun - 200.000$USD
+    </ion-card-content>
+    <ion-button (click)="navigatecompra()" >Lo compro</ion-button>
+  </ion-card>
+<p><ion-button (click)="navigatehome()" expand="full">Regresar</ion-button></p>
